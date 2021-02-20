@@ -1,0 +1,21 @@
+div {
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	position: absolute;	
+	background-color: black;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	font-family: calibri;
+	top: 25px;
+	position: relative;
+	left: 0px;
+}

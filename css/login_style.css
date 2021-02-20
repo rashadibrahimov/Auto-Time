@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+}
+
+.logo {
+    float: left;
+    font-family: 'Chewy', cursive;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    top: 150px;
+    left: 500px;
+    position: relative;
+}
+
+.form {
+	color: white;
+	height: 320px;
+	width: 300px;
+	top: 150px;
+	left: 550px;
+	position: relative;
+	font-family: calibri;
+}
+
+.login {
+	color: white;
+    background-color: #0165C8;
+    font-style: bold;
+    border-color: #0165C8;
+    font-family: calibri;
+    padding: 5px;	
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+	top : 75px;
+	left: 550px;
+	color: #0165C8;
+}
+
+.email {
+	height: 27px;
+	width: 234px;
+}
+
+.password {
+	height: 27px;
+	width: 234px;
+}
+
+h2 {
+	color: white;
+	position: relative;
+	top: 150px;
+	left: 625px;
+	font-family: calibri;
+	width: 100px;
+}

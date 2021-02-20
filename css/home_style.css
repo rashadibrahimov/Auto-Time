@@ -1,0 +1,228 @@
+.logo {
+    float: left;
+    font-family: 'Chewy', cursive;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+    font-family: calibri;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.but {
+	position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    left: 1220px;
+    padding: 5px;
+}
+
+.glass {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    left: 1060px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.vertical-menu {
+    position: relative;
+    top: 150px;
+    left: 75px;
+    width: 100px;
+    border: 1px solid gray;
+}
+
+.vertical-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Passion One', cursive;
+    font-size: 17px;
+    color: gray;
+    border-bottom: 1px solid gray;  
+}
+
+.vertical-menu a:hover {
+    background-color: black;
+    color: orange;
+}
+
+.vertical-menu a.active {
+    background-color: black;
+    color: orange;
+}
+
+.footer {
+	height: 125px;
+	width: 1309px;
+	background-color: black;
+	color: white;
+	left: 0px;
+	top: 1750px;
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.footer_logo {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: 'Chewy', cursive;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}  
+
+.hearstautos {
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    top: 110px;
+    left: 50px;
+    font-size: 15px;
+    font-family: calibri; 
+}
+
+.aboutus {
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    top: 110px;
+    left: 350px;
+    font-size: 15px;
+    font-family: calibri; 
+}
+
+.newsletter {
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    top: 110px;
+    left: 650px;
+    font-size: 15px;
+    font-family: calibri; 
+}
+
+.fb {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+.twitter {
+    position: absolute;
+    left: 400px;
+    top: 30px;   
+}
+
+.instagram {
+    position: absolute;
+    left: 440px;
+    top: 30px; 
+}
+
+.footer a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.latestnews {
+    top: 100px;
+    left: 300px;
+    font-family: calibri;
+    font-size: 50px;
+    position: relative;
+    width: 400px;
+}
+
+.search {
+	height: 50px;
+	width: 175px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 1100px;
+	padding: 30px;
+	display: none;
+}
+
+.searchbut {
+    color: black;
+    background-color: orange;
+    font-style: bold;
+    border-color: orange;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.news_container {
+    width: 1000px;
+    top: 270px;
+    left: 300px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 350px 350px 350px;
+    padding: 10px;
+}
+
+.news {
+    height: 250px;
+    width: 250px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px; 
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.newslink {
+    text-decoration: none;
+    color: black;
+}
+
+.news_image {
+    width: 250px;
+    height: 180px;
+}
