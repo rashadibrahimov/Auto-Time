@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>REGISTER</title>
+	<title>Register</title>
 	<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/register_style.css">
+	<link rel="icon" href="icon.png">
 </head>
 <body>
 
+<img src="icon.png" class="icon">
 <div class="logo">AUTO TIME</div>
 <h2>REGISTER</h2>
 <div class="form">

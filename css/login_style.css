@@ -2,6 +2,14 @@ body {
 	background-color: black;
 }
 
+.icon {
+	height: 75px;
+	width: 75px;
+	top: 160px;
+	left: 140px;
+	position: relative;
+}
+
 .logo {
     float: left;
     font-family: 'Chewy', cursive;
@@ -11,7 +19,7 @@ body {
     text-decoration: none;
     padding: 5px;
     top: 150px;
-    left: 500px;
+    left: 550px;
     position: relative;
 }
 

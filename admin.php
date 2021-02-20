@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ADMIN PANEL</title>
+	<title>Admin Panel</title>
 	<link rel="stylesheet" href="./css/admin_style.css">
+	<link rel="icon" href="icon.png">
 </head>
 <body>
 
@@ -67,7 +68,8 @@ while ($row = mysqli_fetch_assoc($result)) {
 	<input type="submit" name="edit" value="EDIT">
 </form>
 <hr>
-<?php	
+<?php
+ob_start();	
 }
 
 if(isset($_POST['delete'])) {
@@ -75,6 +77,7 @@ if(isset($_POST['delete'])) {
     mysqli_query($conn,$sql3);
     header('Location: '.$_SERVER['PHP_SELF']);
 }
+
 
 if (isset($_POST['edit'])) {
 	?>

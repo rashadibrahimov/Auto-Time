@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LOGIN</title>
+	<title>Login</title>
 	    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
 	    <link rel="stylesheet" type="text/css" href="css/login_style.css">
+	    <link rel="icon" href="icon.png">
 </head>
 <body>
 
+<img src="icon.png" class="icon">
 <div class="logo">AUTO TIME</div>
 <h2>LOGIN</h2>
 <div class="form">

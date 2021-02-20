@@ -8,16 +8,18 @@ if(!isset($_SESSION['email'])){
 
 <html>
 <head>
-<title>AUTO TIME</title>
+<title>Auto Time</title>
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/home_style.css">
+    <link rel="icon" href="icon.png">
 </head>
 <body>
 <ul>
+  <img src="icon.png" class="icon">
   <a href="home.php" class="logo">AUTO TIME</a>
   <li class="li"><a href="logout.php">Logout</a></li>
   <li style="color: black"><div class="but"><img src="glass.png"></div></li>
