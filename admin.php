@@ -102,7 +102,12 @@ if (isset($_POST['update'])) {
 	$target = "images/" . basename($_FILES['add_image']['name']);
 	$image = $_FILES['update_image']['name'];
 	$news_text = $_POST['news_txt'];
-	$sql4 = "UPDATE news SET news_text='$news_text', image='$image' WHERE id='$id'";
+	if (isset($_POST['update_image'])) {
+		$sql4 = "UPDATE news SET news_text='$news_text', image='$image' WHERE id='$id'";
+	}
+	else {
+		$sql4 = "UPDATE news SET news_text='$news_text' WHERE id='$id'";
+	}
 	mysqli_query($conn,$sql4);
 	if (move_uploaded_file($_FILES['add_image']['tmp_name'], $target)) {
 		$msg = "Image uploaded successfully";
