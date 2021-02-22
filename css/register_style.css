@@ -25,9 +25,9 @@ body {
 
 .form {
 	color: white;
-	height: 320px;
+	height: 300px;
 	width: 300px;
-	top: 150px;
+	top: 175px;
 	left: 550px;
 	position: relative;
 	font-family: calibri;
@@ -44,7 +44,7 @@ body {
 
 a {
 	color: white;
-	top: 240px;
+	top: 250px;
 	left: 0px;
 	position: absolute;
 	color: #0165C8;
@@ -73,7 +73,7 @@ a {
 h2 {
 	color: white;
 	position: relative;
-	top: 150px;
+	top: 175px;
 	left: 625px;
 	width: 100px;
 	font-family: calibri;
