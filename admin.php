@@ -90,7 +90,7 @@ if (isset($_POST['edit'])) {
 			$n = $r['news_text'];
 		}
 		?>
-		<textarea name="news_txt" rows="10" cols="30"><?php echo $n ?></textarea>
+		<textarea name="news_txt" rows="10" cols="30"><?php echo $n ?></textarea><br><br>
 		<input type="file" name="update_image">
 		<input type="submit" name="update" value="UPDATE">
 	</form>
